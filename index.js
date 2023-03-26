@@ -9,3 +9,12 @@ function addScore(num, party) {
   //update the text content
   ScoreObj.textContent = newScore;
 }
+
+function newGame() {
+  //grab the home and guest scores
+  let homeScoreObj = document.getElementById("homeScore");
+  let guestScoreObj = document.getElementById("guestScore");
+  //set them to 0
+  homeScoreObj.textContent = 0;
+  guestScoreObj.textContent = 0;
+}
