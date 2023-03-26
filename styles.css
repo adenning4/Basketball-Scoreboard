@@ -17,7 +17,7 @@ body {
   justify-content: space-around;
   margin: 50px auto;
   width: 800px;
-  height: 500px;
+  height: 550px;
   padding: 30px;
   background: #1b244a;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -90,4 +90,33 @@ body {
   font-weight: bold;
   cursor: pointer;
   background: #43454e;
+}
+
+#newGameButton {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 500px;
+  width: 200px;
+  height: 60px;
+  background: #047857;
+  border: 4px solid #064e3b;
+  border-radius: 10px;
+  font-size: 28px;
+  color: #eeeeee;
+  text-shadow: 0 0 2px black;
+  transition: 100ms linear;
+}
+
+#newGameButton:hover {
+  background: #064e3b;
+  border: 4px solid #047857;
+  cursor: pointer;
+}
+
+#newGameButton:active {
+  background: #064e3b;
+  border: 4px solid #064e3b;
+  cursor: pointer;
 }
