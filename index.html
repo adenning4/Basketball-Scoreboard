@@ -13,18 +13,34 @@
         <h3 class="name">HOME</h3>
         <div class="scoreBox" id="homeScore">0</div>
         <div class="buttons">
-          <div class="button" id="homePlusOne">+1</div>
-          <div class="button" id="homePlusThree">+3</div>
-          <div class="button" id="homePlusFive">+5</div>
+          <div class="button" id="homePlusOne" onclick="addScore(1,'home')">
+            +1
+          </div>
+          <div class="button" id="homePlusThree" onclick="addScore(3, 'home')">
+            +3
+          </div>
+          <div class="button" id="homePlusFive" onclick="addScore(5, 'home')">
+            +5
+          </div>
         </div>
       </div>
       <div class="subContainer">
         <h3 class="name">GUEST</h3>
         <div class="scoreBox" id="guestScore">0</div>
         <div class="buttons">
-          <div class="button" id="guestPlusOne">+1</div>
-          <div class="button" id="guestPlusThree">+3</div>
-          <div class="button" id="guestPlusFive">+5</div>
+          <div class="button" id="guestPlusOne" onclick="addScore(1, 'guest')">
+            +1
+          </div>
+          <div
+            class="button"
+            id="guestPlusThree"
+            onclick="addScore(3, 'guest')"
+          >
+            +3
+          </div>
+          <div class="button" id="guestPlusFive" onclick="addScore(5, 'guest')">
+            +5
+          </div>
         </div>
       </div>
     </div>
